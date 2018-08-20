@@ -4,3 +4,6 @@ version = "0.1.0"
 authors = ["Thom Chiovoloni <chiovolonit@gmail.com>"]
 
 [dependencies]
+dirs = "1.0.3"
+failure = "0.1.2"
+log = "0.4.4"
