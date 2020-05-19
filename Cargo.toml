@@ -1,11 +1,11 @@
 [package]
 name = "find-places-db"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Thom Chiovoloni <chiovolonit@gmail.com>"]
 license = "MIT/Apache-2.0"
 description = "Quick and dirty crate for finding a user's local places databases"
 
 [dependencies]
-dirs = "1.0.3"
+dirs = "2.0"
 anyhow = "1.0"
-log = "0.4.4"
+log = "0.4"
