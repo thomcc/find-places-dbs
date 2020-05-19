@@ -1,11 +1,11 @@
 extern crate dirs;
 #[macro_use]
-extern crate failure;
+extern crate anyhow;
 #[macro_use]
 extern crate log;
 use std::{process, fs, path::{Path, PathBuf}};
 
-pub type Result<T> = std::result::Result<T, failure::Error>;
+pub type Result<T> = std::result::Result<T, anyhow::Error>;
 
 #[derive(Clone, Debug, PartialEq)]
 pub struct PlacesLocation {

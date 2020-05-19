@@ -7,5 +7,5 @@ description = "Quick and dirty crate for finding a user's local places databases
 
 [dependencies]
 dirs = "1.0.3"
-failure = "0.1.2"
+anyhow = "1.0"
 log = "0.4.4"
